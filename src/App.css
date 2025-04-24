@@ -1,0 +1,21 @@
+.App {
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+input[type='number'] {
+  width: 100%;
+}
+
+.tab-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
